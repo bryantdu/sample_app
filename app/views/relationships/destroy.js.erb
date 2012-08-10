@@ -1,0 +1,2 @@
+$("#follow_form").html("<%= excape_javascript(render('users/follow')) %>")
+$("#followers").html('<%= @user.followers.count %>')
